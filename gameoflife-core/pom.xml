@@ -44,9 +44,9 @@
                 <artifactId>cobertura-maven-plugin</artifactId>
                 <version>2.4</version>
                 <configuration>
+                    <forceMojoExecution>true</forceMojoExecution>
                     <formats>
                         <format>xml</format>
-                        <format>html</format>
                     </formats>
                 </configuration>
             </plugin>
